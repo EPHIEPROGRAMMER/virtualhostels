@@ -208,95 +208,72 @@ window.onclick = function(event) {
 <style media="screen">
     #b1{background-color: red;}
 </style>
-<div class="container" id="navig">
-  <!-- <div class="jumbotron"> -->
-  <!-- <div class="container"> -->
-  <div class="row">
-
-
-    <div class="first">
-      <div class="container">
-
-        <img id="img-header" src="img/VH.PNG " alt="logo">
-        <div class="topicons">
-          <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
-          <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
-          <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
-          <a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-square fa-3x"></i></a>
-          <a href="https://www.linkedin.com/in/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
-          <a href- "https://www.youtube.com/" target="_blank"> <i class="fa fa-youtube fa-3x"></i></a>
-
-        </div>
-      </div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  <span class="sr-only">Toggle navigation</span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+</button>
+      <!-- <a class="navbar-brand" href="#">Brand</a> -->
     </div>
-    <!--end of logo-->
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-          <!-- <a class="navbar-brand" href="#">Brand</a> -->
-        </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html"><img id="img-header" src="img/lg2.png" alt="logo"><span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="about.html">Why Us</a></li>
+        <li class="bn"><a href="">Book Now</a></li>
+        <li><a href="faq.html">F.A.Qs</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Select Institution <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="uon.html">U.O.N</a></li>
+            <li><a href="jkuat.html">JKUAT</a></li>
+            <li><a href="KU.html">K.U</a></li>
+            <li><a href="KCA.html">K.C.A</a></li>
+            <li><a href="kemu.html">KeMU</a></li>
+            <li><a href="mku.html">M.K.U</a></li>
+            <li><a href="moi.html">MOI</a></li>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="about.html">Why Us</a></li>
-            <li><a href="jkuat div #mymodal">Book Now</a></li>
-            <li><a href="faq.html">F.A.Qs</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Select Institution <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="uon.html">U.O.N</a></li>
-                <li><a href="jkuat.html">JKUAT</a></li>
-                <li><a href="kemu.html">K.U</a></li>
-                <li><a href="mku.html">K.C.A</a></li>
-                <li><a href="moi.html">KeMU</a></li>
-                <li><a href="KU.html">M.K.U</a></li>
-                <li><a href="KCA.html">MOI</a></li>
-
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Schedule a visit</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">FEEDBACK</a></li>
-              </ul>
-            </li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Schedule a visit</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">FEEDBACK</a></li>
           </ul>
-          <form class="navbar-form navbar-left">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search for a hostel..">
-            </div>
-            <button type="submit" class="btn btn-default">SEARCH!</button>
-          </form>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><button type="submit" class="btn btn-info">Feedback</button></a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="mailto:virtualhostels@gmail.com">Email</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Tel:000888334</a></li>
-              </ul>
-            </li>
-          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search for a hostel..">
         </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container-fluid -->
-    </nav>
+        <button type="submit" class="btn btn-default">SEARCH!</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><button type="submit" class="btn btn-info">Feedback</button></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign Up <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="#">Register</a></li>
+              <li><a href="#">Sign In</a></li>
+
+
+            <li role="separator" class="divider"></li>
+           <li><a href="mailto:virtualhostels@gmail.com">Email</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
   </div>
-  </div>
-  <!--end of first-->
+  <!-- /.container-fluid -->
+</nav>
+</div>
+</div>  <!--end of first-->
 
 <div class="jumbotron">
     <div class="container">
